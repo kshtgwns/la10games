@@ -1,15 +1,15 @@
 const games = [
-  { id: 1, title: 'EA Sports FC 25', genre: 'Deportes', console: 'PS5', price: 5499 },
-  { id: 2, title: 'Grand Theft Auto V', genre: 'Acción', console: 'PS4/PS5', price: 3999 },
-  { id: 3, title: 'God of War Ragnarök', genre: 'Acción', console: 'PS5', price: 4999 },
-  { id: 4, title: 'Gran Turismo 7', genre: 'Carreras', console: 'PS5', price: 4599 },
-  { id: 5, title: 'The Last of Us Parte II', genre: 'Aventura', console: 'PS4', price: 2499 },
-  { id: 6, title: 'Spider-Man 2', genre: 'Acción', console: 'PS5', price: 4899 },
-  { id: 7, title: 'eFootball 2025', genre: 'Deportes', console: 'PS4/PS5', price: 3299 },
-  { id: 8, title: 'Elden Ring', genre: 'RPG', console: 'PS5', price: 4199 },
+  { id: 1, title: 'EA Sports FC 2', genre: 'Deportes', console: 'PS4-PS5', price: 15.000 },
+  { id: 2, title: 'Grand Theft Auto V', genre: 'Acción', console: 'PS4/PS5', price: 19.000 },
+  { id: 3, title: 'Need For Speed Deluxe Edition', genre: 'Carreras', console: 'PS4-PS5', price: 10.000 },
+  { id: 4, title: 'Paquete de Unravel', genre: 'Aventura', console: 'PS5', price: 4599 },
+  { id: 5, title: 'The Last of Us Remastered', genre: 'Aventura', console: 'PS4-PS5', price: 10.000 },
+  { id: 6, title: 'Need For Speed Rivals', genre: 'Carrera', console: 'PS4-PS5', price: 8.000 },
+  { id: 7, title: 'The Nathan Drake Collection', genre: 'Aventura', console: 'PS4/PS5', price: 10.000 },
+  { id: 8, title: 'Resident Evil 4', genre: 'RPG', console: 'PS4-PS5', price: 10.000 },
 ];
 
-const whatsappNumber = '5490000000000'; // REEMPLAZA CON TU NÚMERO
+const whatsappNumber = '541133644922'; // REEMPLAZA CON TU NÚMERO
 
 function initCatalog() {
   const container = document.getElementById('catalog-container');
