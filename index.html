@@ -17,9 +17,43 @@
       <a href="#como-comprar">Cómo comprar</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a href="#contacto" class="nav-cta">Comprar ahora</a>
+    <button id="admin-btn" class="nav-cta" title="Panel de administrador">⚙️ Admin</button>
   </div>
 </header>
+
+<!-- MODAL ADMIN -->
+<div id="admin-modal" class="admin-modal hidden">
+  <div class="admin-panel">
+    <div class="admin-header">
+      <h2>Panel de Administrador</h2>
+      <button id="close-admin" class="close-btn">✕</button>
+    </div>
+
+    <div class="admin-content">
+      <!-- TAB: Configuración -->
+      <div class="admin-tab active" id="tab-config">
+        <h3>⚙️ Configuración</h3>
+        <div class="form-group">
+          <label>Número de WhatsApp (sin +54):</label>
+          <input type="text" id="whatsapp-input" placeholder="549123456789" maxlength="12">
+          <small>Ejemplo: 549123456789</small>
+        </div>
+        <button id="save-whatsapp" class="btn-save">Guardar WhatsApp</button>
+      </div>
+
+      <!-- TAB: Editar Juegos -->
+      <div class="admin-tab" id="tab-games">
+        <h3>🎮 Editar Juegos</h3>
+        <div id="games-list" class="games-edit-list"></div>
+        <button id="add-game" class="btn-add">+ Agregar Juego</button>
+      </div>
+    </div>
+
+    <div class="admin-footer">
+      <button id="reset-all" class="btn-danger">🔄 Restaurar predeterminados</button>
+    </div>
+  </div>
+</div>
 
 <main>
   <section class="hero">
